@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "app/assets/scripts/dist",
+        "declaration": true
+    },
+    "include": [
+        "app/assets/scripts/src/**/*.ts"
+    ],
+    "exclude": [
+        "app/assets/scripts/src/**/*.spec.ts",
+        "node_modules"
+    ]
+}
